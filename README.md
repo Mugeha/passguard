@@ -61,10 +61,15 @@ Security Tools:
 ### 🛠 Folder Structure
 
 passguard/
+
 ├── public/
+
 │   └── index.html
+
 ├── src/
+
 │   ├── components/
+
 │   │   └── PasswordChecker.js
 │   ├── styles/
 │   │   └── styles.css
