@@ -71,12 +71,19 @@ passguard/
 │   ├── components/
 
 │   │   └── PasswordChecker.js
+
 │   ├── styles/
+
 │   │   └── styles.css
+
 │   ├── App.js
+
 │   ├── index.js
+
 ├── .gitignore
+
 ├── package.json
+
 ├── README.md
 
 ### 🚀 Live Demo
