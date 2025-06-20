@@ -90,6 +90,7 @@ npm start
 ![screenshot](./public/screenshot2.png)
 ![screenshot](./public/screenshot3.png)
 ![screenshot](./public/screenshot4.png)
+![screenshot](./public/screenshot5.png)
 
 ### 🙋🏽‍♀️ About Me
 
