@@ -92,6 +92,11 @@ npm start
 ![screenshot](./public/screenshot4.png)
 ![screenshot](./public/screenshot5.png)
 
+### Blog Post
+
+[Blog Link](https://medium.com/@mugehajacky/from-weak-to-secure-building-a-real-world-password-analyzer-in-react-060bbe97f975)
+
+
 ### 🙋🏽‍♀️ About Me
 
 I’m Jackie — a full-stack developer and cybersecurity enthusiast focused on building real tools for real problems.
