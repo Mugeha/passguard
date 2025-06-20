@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+📝 PassGuard – Password Strength Tester
+Your online bodyguard for passwords. Built for real users. Backed by real cybersecurity tools.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔐 Overview
+PassGuard is a modern, real-time password strength tester built with React and plain CSS.
+It gives users actionable feedback on how secure their password is — while checking if it has ever appeared in known data breaches.
 
-## Available Scripts
+This is more than a toy project — it's a production-ready cybersecurity tool built for the web.
 
-In the project directory, you can run:
+🎯 Why I Built This
+In a digital world full of hacks, most people still use weak passwords like 123456 or their own name.
+I wanted to build a tool that helps them do better — and proves my cybersecurity + software skills.
 
-### `npm start`
+This project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Solves a real problem
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Showcases React, API integration, and hashing
 
-### `npm test`
+Adds value to any portfolio or blog
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✨ Features
+Feature	Description
+🔎 Password Strength Checker	Analyzes in real-time using zxcvbn (by Dropbox)
+🧠 Human-Friendly Feedback	Suggests how to make weak passwords stronger
+🚨 Data Breach Detection	Uses HaveIBeenPwned API (with SHA-1 K-Anonymity) to check if the password is compromised
+🔐 Strong Password Generator	Generates random strong passwords with copy-to-clipboard
+💬 Clean UI	Fully responsive with accessible feedback
+⚛️ Built with React	Hook-based architecture and plain CSS styling
 
-### `npm run build`
+🧠 How It Works
+Password input triggers zxcvbn to score the password (0–4)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Suggestions and warnings show instantly (e.g., "Too short", "Avoid common words")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Password is hashed with SHA-1, only the first 5 characters are sent to the HaveIBeenPwned API (privacy preserved)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Matches checked locally to see if the password is compromised
 
-### `npm run eject`
+Generator creates strong random passwords with symbols, numbers, and uppercase/lowercase letters
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠 Tech Stack
+Frontend: React (Create React App)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Styling: Pure CSS (no frameworks)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Security Tools:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+zxcvbn – password analysis
 
-## Learn More
+js-sha1 – hashing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+HaveIBeenPwned API – breach detection
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🚀 Live Demo
+🔗 Coming Soon
+(Once deployed, paste your Netlify/Vercel link here)
 
-### Code Splitting
+🧪 How to Run Locally
+bash
+Copy
+Edit
+git clone https://github.com/your-username/passguard.git
+cd passguard
+npm install
+npm start
+💡 Future Enhancements
+ Store usage metrics (without logging passwords)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ Dark mode
 
-### Analyzing the Bundle Size
+ Browser extension version
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Password history analyzer
 
-### Making a Progressive Web App
+📸 Screenshots
+(Once deployed or you take screenshots, embed like so)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+md
+Copy
+Edit
+![screenshot](./public/screenshot1.png)
+🙋🏽‍♀️ About Me
+I’m Jackie — a full-stack developer and cybersecurity enthusiast focused on building real tools for real problems.
+If you’re hiring or collaborating, let’s talk.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+"The best password is the one you didn’t use last year." – You, after using PassGuard 😎
