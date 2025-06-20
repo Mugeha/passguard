@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+progress {
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.feedback {
+  text-align: left;
+}
+.feedback p, .suggestions {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.suggestions ul {
+  padding-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.suggestions li {
+  list-style-type: circle;
+}
+.generator {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.generator button,
+.generated-output button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.generated-output {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  word-break: break-all;
+}
+
+.generated-output p {
+  margin: 0.5rem 0;
+}
