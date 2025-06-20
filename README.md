@@ -1,7 +1,10 @@
-📝 PassGuard – Password Strength Tester
+## 📝 PassGuard – Password Strength Tester
+
 Your online bodyguard for passwords. Built for real users. Backed by real cybersecurity tools.
+ 
 
 🔐 Overview
+
 PassGuard is a modern, real-time password strength tester built with React and plain CSS.
 It gives users actionable feedback on how secure their password is — while checking if it has ever appeared in known data breaches.
 
