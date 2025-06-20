@@ -60,8 +60,7 @@ Security Tools:
 
 ### 🚀 Live Demo
 
-🔗 Coming Soon
-(Once deployed, paste your Netlify/Vercel link here)
+[Live demo here](https://passguard-drab.vercel.app/)
 
 ### 🧪 How to Run Locally
 
@@ -88,6 +87,9 @@ npm start
 (Once deployed or you take screenshots, embed like so)
 
 ![screenshot](./public/screenshot1.png)
+![screenshot](./public/screenshot2.png)
+![screenshot](./public/screenshot3.png)
+![screenshot](./public/screenshot4.png)
 
 ### 🙋🏽‍♀️ About Me
 
