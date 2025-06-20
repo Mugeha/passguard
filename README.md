@@ -58,6 +58,10 @@ Security Tools:
 
 - HaveIBeenPwned API – breach detection
 
+### 🛠 Folder Structure
+
+
+
 ### 🚀 Live Demo
 
 [Live demo here](https://passguard-drab.vercel.app/)
