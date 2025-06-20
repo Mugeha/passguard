@@ -11,72 +11,86 @@ It gives users actionable feedback on how secure their password is — while che
 This is more than a toy project — it's a production-ready cybersecurity tool built for the web.
 
 ### 🎯 Why I Built This
+
 In a digital world full of hacks, most people still use weak passwords like 123456 or their own name.
 I wanted to build a tool that helps them do better — and proves my cybersecurity + software skills.
 
 
-✨ Features
-Feature	Description
-🔎 Password Strength Checker	Analyzes in real-time using zxcvbn (by Dropbox)
-🧠 Human-Friendly Feedback	Suggests how to make weak passwords stronger
-🚨 Data Breach Detection	Uses HaveIBeenPwned API (with SHA-1 K-Anonymity) to check if the password is compromised
-🔐 Strong Password Generator	Generates random strong passwords with copy-to-clipboard
-💬 Clean UI	Fully responsive with accessible feedback
-⚛️ Built with React	Hook-based architecture and plain CSS styling
+### ✨ Features
 
-🧠 How It Works
-Password input triggers zxcvbn to score the password (0–4)
+### Feature	Description
 
-Suggestions and warnings show instantly (e.g., "Too short", "Avoid common words")
+- Password Strength Checker	Analyzes in real-time using zxcvbn (by Dropbox)
 
-Password is hashed with SHA-1, only the first 5 characters are sent to the HaveIBeenPwned API (privacy preserved)
+- Human-Friendly Feedback	Suggests how to make weak passwords stronger
+  
+- Data Breach Detection	Uses HaveIBeenPwned API (with SHA-1 K-Anonymity) to check if the password is compromised
+  
+- Strong Password Generator	Generates random strong passwords with copy-to-clipboard
+  
+- Clean UI	Fully responsive with accessible feedback
 
-Matches checked locally to see if the password is compromised
+- Built with React	Hook-based architecture and plain CSS styling
 
-Generator creates strong random passwords with symbols, numbers, and uppercase/lowercase letters
+### 🧠 How It Works
 
-🛠 Tech Stack
-Frontend: React (Create React App)
+- Password input triggers zxcvbn to score the password (0–4)
 
-Styling: Pure CSS (no frameworks)
+- Suggestions and warnings show instantly (e.g., "Too short", "Avoid common words")
+
+- Password is hashed with SHA-1, only the first 5 characters are sent to the HaveIBeenPwned API (privacy preserved)
+
+- Matches checked locally to see if the password is compromised
+
+- Generator creates strong random passwords with symbols, numbers, and uppercase/lowercase letters
+
+### 🛠 Tech Stack
+
+- Frontend: React (Create React App)
+
+- Styling: Pure CSS (no frameworks)
 
 Security Tools:
 
-zxcvbn – password analysis
+- zxcvbn – password analysis
 
-js-sha1 – hashing
+- js-sha1 – hashing
 
-HaveIBeenPwned API – breach detection
+- HaveIBeenPwned API – breach detection
 
-🚀 Live Demo
+### 🚀 Live Demo
+
 🔗 Coming Soon
 (Once deployed, paste your Netlify/Vercel link here)
 
-🧪 How to Run Locally
-bash
-Copy
-Edit
+### 🧪 How to Run Locally
+
+```bash
+
 git clone https://github.com/your-username/passguard.git
 cd passguard
 npm install
 npm start
-💡 Future Enhancements
- Store usage metrics (without logging passwords)
+```
 
- Dark mode
+###💡 Future Enhancements
 
- Browser extension version
+ - Store usage metrics (without logging passwords)
 
- Password history analyzer
+ - Dark mode
 
-📸 Screenshots
+ - Browser extension version
+
+ - Password history analyzer
+
+### 📸 Screenshots
+
 (Once deployed or you take screenshots, embed like so)
 
-md
-Copy
-Edit
 ![screenshot](./public/screenshot1.png)
-🙋🏽‍♀️ About Me
+
+### 🙋🏽‍♀️ About Me
+
 I’m Jackie — a full-stack developer and cybersecurity enthusiast focused on building real tools for real problems.
 If you’re hiring or collaborating, let’s talk.
 
