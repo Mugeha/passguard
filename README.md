@@ -3,24 +3,17 @@
 Your online bodyguard for passwords. Built for real users. Backed by real cybersecurity tools.
  
 
-🔐 Overview
+### 🔐 Overview
 
 PassGuard is a modern, real-time password strength tester built with React and plain CSS.
 It gives users actionable feedback on how secure their password is — while checking if it has ever appeared in known data breaches.
 
 This is more than a toy project — it's a production-ready cybersecurity tool built for the web.
 
-🎯 Why I Built This
+### 🎯 Why I Built This
 In a digital world full of hacks, most people still use weak passwords like 123456 or their own name.
 I wanted to build a tool that helps them do better — and proves my cybersecurity + software skills.
 
-This project:
-
-Solves a real problem
-
-Showcases React, API integration, and hashing
-
-Adds value to any portfolio or blog
 
 ✨ Features
 Feature	Description
