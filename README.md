@@ -73,7 +73,7 @@ npm install
 npm start
 ```
 
-###💡 Future Enhancements
+### 💡 Future Enhancements
 
  - Store usage metrics (without logging passwords)
 
